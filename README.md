@@ -7,7 +7,7 @@ Lxc cheatsheet
   ```sh
   lxc remote list
   ```
-1. Search for remote images:
+2. Search for remote images:
 
   ```sh
   lxc image list images: debian
@@ -17,6 +17,6 @@ Lxc cheatsheet
 ## Running containers
 1. Pull image and run container:
 
-```sh
-sudo lxc launch ubuntu:20.04 ubuntuone
-```
+  ```sh
+  sudo lxc launch ubuntu:20.04 ubuntuone
+  ```
